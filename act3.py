@@ -52,6 +52,6 @@ def get_ip_info(ip_address=None):
         print(f"Error fetching IP information: {e}")
 
 if __name__ == "__main__":
-    # Ask the user to input an IPv4 address or press Enter to use their own public IP
-    ip_input = input("Enter an IPv4 address (or press Enter to use your own public IP): ")
+    # Ask the user to input an IP address or press Enter to use their own public IP
+    ip_input = input("Enter an IP address (or press Enter to use your own public IP): ")
     get_ip_info(ip_input)
